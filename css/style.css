@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    height: 60px;
+    height: 8.04vh;
     width: 100%;
     background: #121921;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,22 +12,25 @@
 .container{
     height: 100%;
     width: 95%;
-    margin: auto;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .first img{
-    height: 50px;
+    height: 6.70vh;
     width: 6.5vw;
 }
 .second{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #fff;
 }
 p{
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 300;
     color: #fff;
     opacity: .7;
@@ -37,66 +40,72 @@ p{
     border-radius: 3px;
 }
 .third #all{
-    height: 40px;
-    width: 70px;
+    height: 6.56vh;
+    width: 4.55vw;
     background: #f2f1ff;
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
+@media only screen and (max-width: 768px) {
+    .third #all{
+        display: none;}
+  }
 .third input{
-    height: 40px;
-    width: 580px;
+    font-size: 1rem;
+    font-weight:600;
+    height: 6.56vh;
+    width: 37.76vw;
     border: none;
     background: #fff;
-    padding-left: 20px;
     color: #121921;
     outline: none;
 
 }
 .third #search{
-    height: 40px;
-    width: 70px;
+    display: inline-block;
+    height: 6.88vh;
+    width: 4.55vw;
     background: #febb69;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .fourth img{
-    height: 10px;
+    height: 1.34vh;
     width: auto;
 }
     
 
 .fourth{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #fff;
 }
 .fifth{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #fff;
 }
 .six{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #fff;
 }
 .seventh{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     color: #fff;
 }
 .bi-cart2{
-    font-size: 28px;
+    font-size: 1.75rem;
     color: #fff;
 }
 .bi-caret-down-fill{
-    font-size: 12px;
+    font-size: 0.75rem;
     opacity: .7;
     color: #fff;
 }
 #all .bi-caret-down-fill{
     color: #121921;
     opacity: .7;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
